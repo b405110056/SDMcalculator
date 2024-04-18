@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>SDM計算器</title> 
+</head>
+<body>
+<h1>SDM計算器</h1>
+
+<form id="SDMForm">
+  <p>問題1: ＤＥＭＯ</p>
+  <label><input type="radio" name="test" value="0"> 0的選項</label>
+  <label><input type="radio" name="test" value="1"> 1的選項</label>
+  <label><input type="radio" name="test" value="2"> 2的選項</label><br>
+  
+  <p>問題2: 你的年齡是？</p>
+  <label><input type="radio" name="age" value="0"> 30歲以下</label>
+  <label><input type="radio" name="age" value="1"> 30-45歲</label>
+  <label><input type="radio" name="age" value="2"> 45歲以上</label><br>
+  
+  <p>問題3: 你的運動頻率？</p>
+  <label><input type="radio" name="exercise" value="0"> 很少</label>
+  <label><input type="radio" name="exercise" value="1"> 偶爾</label>
+  <label><input type="radio" name="exercise" value="2"> 經常</label><br>
+  
+  <p>問題4: 你的飲食習慣？</p>
+  <label><input type="radio" name="diet" value="0"> 不均衡</label>
+  <label><input type="radio" name="diet" value="1"> 比較均衡</label>
+  <label><input type="radio" name="diet" value="2"> 非常均衡</label><br>
+  
+  <p>問題5: 你的壓力水平？</p>
+  <label><input type="radio" name="stress" value="2"> 高</label>
+  <label><input type="radio" name="stress" value="1"> 中</label>
+  <label><input type="radio" name="stress" value="0"> 低</label><br>
+  <button type="button" onclick="calculateRisk()">計算總分</button>
+</form>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
