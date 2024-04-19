@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<title>要在這邊打標題喔</title> 
+<title>雙重抗血小板藥物衛教與決策量表</title> 
   <style>
   body {
     font-size: 36px; /* 設定整個頁面的基本字體大小 */
@@ -29,30 +29,30 @@
 <h1>SDM計算器</h1>
 
 <form id="SDMForm">
-  <p>問題1: 要在這邊打我們的問題</p>
-  <label><input type="radio" name="test" value="0"> 這是選項A</label>
-  <label><input type="radio" name="test" value="1"> 這是選項B</label>
-  <label><input type="radio" name="test" value="2"> 這是選項C</label><br>
+  <p>問題1: 您的年紀是？</p>
+  <label><input type="radio" name="test" value="0"> 65歲以上</label>
+  <label><input type="radio" name="test" value="1"> 64歲以下</label>
+  <label><input type="radio" name="test" value="2"> 不方便透露</label><br>
   
-  <p>問題2: 你的年齡是？</p>
-  <label><input type="radio" name="age" value="0"> 30歲以下</label>
-  <label><input type="radio" name="age" value="1"> 30-45歲</label>
-  <label><input type="radio" name="age" value="2"> 45歲以上</label><br>
+  <p>問題2: 您是否有慢性心臟疾病？</p>
+  <label><input type="radio" name="age" value="0"> 是，穩定門診追蹤</label>
+  <label><input type="radio" name="age" value="1"> 是，沒有追蹤</label>
+  <label><input type="radio" name="age" value="2"> 沒有</label><br>
   
-  <p>問題3: 你的運動頻率？</p>
-  <label><input type="radio" name="exercise" value="0"> 很少</label>
-  <label><input type="radio" name="exercise" value="1"> 偶爾</label>
-  <label><input type="radio" name="exercise" value="2"> 經常</label><br>
+  <p>問題3: 您目前長期服用藥物？</p>
+  <label><input type="radio" name="exercise" value="0"> 使用雙重抗血小板藥物</label>
+  <label><input type="radio" name="exercise" value="1"> 使用其他藥物</label>
+  <label><input type="radio" name="exercise" value="2"> 沒有</label><br>
   
-  <p>問題4: 你的飲食習慣？</p>
-  <label><input type="radio" name="diet" value="0"> 不均衡</label>
-  <label><input type="radio" name="diet" value="1"> 比較均衡</label>
-  <label><input type="radio" name="diet" value="2"> 非常均衡</label><br>
+  <p>問題4: 您是否對於藥物的作用與副作用完全了解？</p>
+  <label><input type="radio" name="diet" value="0"> 是</label>
+  <label><input type="radio" name="diet" value="1"> 否</label>
+  <label><input type="radio" name="diet" value="2"> 部分了解</label><br>
   
-  <p>問題5: 你的壓力水平？</p>
-  <label><input type="radio" name="stress" value="2"> 高</label>
-  <label><input type="radio" name="stress" value="1"> 中</label>
-  <label><input type="radio" name="stress" value="0"> 低</label><br>
+  <p>問題5: 您是否認為此一治療造成您就醫或經濟上的負擔？</p>
+  <label><input type="radio" name="stress" value="2"> 是</label>
+  <label><input type="radio" name="stress" value="1"> 有些負擔</label>
+  <label><input type="radio" name="stress" value="0"> 否</label><br>
   <button type="button" onclick="calculateRisk()">計算總分</button>
 </form>
 
